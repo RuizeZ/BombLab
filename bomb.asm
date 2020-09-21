@@ -528,7 +528,7 @@ Disassembly of section .text:
   401123:	e8 12 03 00 00       	callq  40143a <explode_bomb>
   401128:	41 83 c4 01          	add    $0x1,%r12d
   40112c:	41 83 fc 06          	cmp    $0x6,%r12d
-  401130:	74 21                	je     401153 <phase_6+0x5f>
+  401130:	74 21                 je     401153 <phase_6+0x5f>
   401132:	44 89 e3             	mov    %r12d,%ebx
   401135:	48 63 c3             	movslq %ebx,%rax
   401138:	8b 04 84             	mov    (%rsp,%rax,4),%eax
